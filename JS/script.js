@@ -4,9 +4,9 @@ function returnBeep(number) {
   }
   return number;
 }
-function returBoop(number) {
-  if (number === 1) {
-    return "beep";
+function returnBoop(number) {
+  if (number === 2) {
+    return "boop";
   }
   return number;
 }
