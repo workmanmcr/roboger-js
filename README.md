@@ -74,3 +74,33 @@ code: function neighbor(number) {
 neighbor(213)
 Expected Output: "won't you be my neighbor?"
 passed
+
+Describe: list()
+
+Test: "it should return a list of numbers starting from 0 to the entered number"
+Code: function list(number) {
+  var numbers = [];
+  for (var i = 0; i <= number; i++) {
+    numbers.push(i);
+list(8);
+Expected Output: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+passed
+
+Describe: neighbor()
+
+Test: "it should use the list function as a call back to insert beep, beep, and "won't you be my neighbor?" 
+ code: function neighbor(number, callback) {
+  var output = [];
+  for (var i = 0; i <= number; i++) {
+    if (i.toString().includes('3')) {
+      output.push("Won't you be my neighbor?");
+    } else if (i.toString().includes('2')) {
+      output.push("boop");
+    } else if (i.toString().includes('1')) {
+      output.push("beep");
+    } else {
+      output.push(i);
+    }
+  }
+  neighbor(6)
+  Expected outcome [0, 'beep', 'boop', "Won't you be my neighbor?", 4, 5, 6]
