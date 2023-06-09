@@ -11,7 +11,7 @@ function returnBoop(number) {
   return number;
 }
 function neighbor(number) {
-  if (number === 3) {
+  if (number.toString().includes('3')) {
     return "Won't you be my neighbor?";
   }
   return number;
