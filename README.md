@@ -2,7 +2,7 @@
 
 #### By _**{Mike Workman}**_
 
-#### _{Roboger's Hood turns nubers into beeps and boops}_
+#### _{Roboger's Hood turns numbers into beeps and boops}_
 
 ## Technologies Used
 
