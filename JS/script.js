@@ -5,8 +5,14 @@ function returnBeep(number) {
   return number;
 }
 function returnBoop(number) {
-  if (number === 2) {
+  if (number.toString().includes('2')) {
     return "boop";
+  }
+  return number;
+}
+function neighbor(number) {
+  if (number === 3) {
+    return "Won't you be my neighbor?";
   }
   return number;
 }
