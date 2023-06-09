@@ -1,7 +1,7 @@
 Describe: returnBeep()
 
 Test: "it should replace the number 1 with the word beep"
-Code: function convertToBeep(number) {
+Code: function returnBeep(number) {
   if (number === 1) {
     return "beep";
 returnBeep(1);

@@ -9,3 +9,11 @@ function neighbor(number) {
   return number;
 }
 }
+
+function list(number) {
+  var numbers = [];
+  for (var i = 0; i <= number; i++) {
+    numbers.push(i);
+  }
+  return numbers;
+}
