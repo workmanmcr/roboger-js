@@ -1,4 +1,3 @@
-
 function neighbor(number, callback) {
   let output = [];
   for (let i = 0; i <= number; i++) {
@@ -11,6 +10,7 @@ function neighbor(number, callback) {
     } else {
       output.push(i);
     }
+    //add call back for list function
   }
   if (typeof callback === 'function') {
     return callback(output);
@@ -20,6 +20,7 @@ function neighbor(number, callback) {
 function list(numbers) {
   return numbers;
 }
+//add UI logic
 function process() {
   const number = parseInt(document.getElementById('numberInput').value);
   const result = neighbor(number, list);
