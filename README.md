@@ -13,7 +13,7 @@
 ## Description 
 Roboger's Hood is fun application that will allow you change any numer into a fun string of predefined words and phrases by utilizing javascripts arrays and looping abilities. 
 
-[ROBOGER'S HOOD](Workmanmcr.github.io/roboger-js.)
+[ROBOGER'S HOOD](https://workmanmcr.github.io/roboger-js/)
 
 Here are a List of test for the JavaScript below:
 
